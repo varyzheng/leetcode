@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { simplifyPath } from '../leetcode/71-简化路径';
+import { myAtoi } from '../leetcode/myaToi';
 
 export default {
   name: 'HelloWorld',
@@ -13,7 +13,7 @@ export default {
     return {};
   },
   created() {
-    window.simplifyPath = simplifyPath;
+    window.myAtoi = myAtoi;
   },
 };
 </script>

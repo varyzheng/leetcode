@@ -51,6 +51,7 @@ module.exports = {
     'vue/require-prop-type-constructor': 'off',
     'vue/use-v-on-exact': 'off',
     'import/prefer-default-export': 0,
-    'no-param-reassign': 'off'
+    'no-param-reassign': 'off',
+    "linebreak-style": [0 ,"error", "windows"]
   }
 }
